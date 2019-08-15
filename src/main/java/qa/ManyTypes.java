@@ -1,3 +1,5 @@
+package qa;
+
 public class ManyTypes {
 
     boolean tumbler;

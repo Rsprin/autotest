@@ -1,5 +1,21 @@
+package qa;
+
+
+import qa.qa1.MyClass;
+import org.testng.util.Strings;
+
 public class Main {
     public static void main(String[] args) {
+
+        Sunshine sunshine = new Sunshine();
+        qa.qa2.Sunshine newSunshine = new qa.qa2.Sunshine();
+
+
+        MyClass m = new MyClass();
+        qa.qa2.innerqa.MyClass m2;
+
+        Strings s;
+
         int a = 4;
         int b = 45;
         boolean result;
@@ -66,7 +82,7 @@ public class Main {
          * проверить что а и b нечетные числа, вывести на экран ложь если а нечетное
          * */
         result = a % 2 == 0;
-        System.out.println(result?true:false);
-        result = b % 2 ==0;
+        System.out.println(result ? true : false);
+        result = b % 2 == 0;
     }
 }
