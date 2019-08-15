@@ -1,3 +1,5 @@
+package qa.pits.xo.model;
+
 import java.lang.reflect.Field;
 
 public class Game {
